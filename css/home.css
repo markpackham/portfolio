@@ -1,0 +1,40 @@
+#computer-realistic {
+    border-radius: 20px;
+    max-width: 350px;
+}
+
+#profile {
+    text-align: center;
+}
+
+#about .card {
+    max-width: 400px;
+}
+
+#about-me-intro,
+#services-intro,
+.blockquote,
+.work-content {
+    background: linear-gradient(90deg, rgba(232, 232, 200, 1) 0%, rgba(226, 226, 177, 1) 35%, rgba(207, 207, 146, 1) 100%);
+    background: rgb(232, 232, 200);
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.modal-content {
+    background: rgb(232, 232, 200);
+}
+
+/*
+Media Queries learned from
+(No date) CSS @media rule. 
+Available at: https://www.w3schools.com/cssref/css3_pr_mediaquery.php 
+(Accessed: 21 September 2023). 
+*/
+@media screen and (max-width: 991px) {
+
+    nav ul {
+        margin: auto;
+    }
+}

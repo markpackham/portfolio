@@ -1,0 +1,64 @@
+:root {
+    --background-color-main: hsl(60, 15%, 72%);
+    --box-shadow-main: 10px 5px 5px hsl(0, 1%, 48%);
+    --card-bg-color: hsl(60, 45%, 78%);
+}
+
+body {
+    background-color: var(--background-color-main);
+    color: hsl(0, 4%, 14%);
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(58, 37%, 32%);
+}
+
+a:hover {
+    font-weight: bold;
+    color: hsl(59, 34%, 24%);
+}
+
+.btn {
+    background-color: hsl(58, 85%, 70%);
+    border: solid 1px;
+}
+
+.btn:hover {
+    background-color: hsl(58, 31%, 50%);
+}
+
+footer {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    box-shadow: var(--box-shadow-main);
+}
+
+nav {
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    box-shadow: var(--box-shadow-main);
+    max-width: 900px;
+}
+
+.navbar {
+    background: rgb(249, 244, 132);
+    background: linear-gradient(90deg, rgba(249, 244, 132, 1) 0%, rgba(244, 239, 113, 1) 35%, rgba(235, 229, 95, 1) 100%);
+    box-shadow: var(--box-shadow-main);
+}

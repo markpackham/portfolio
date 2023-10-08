@@ -1,0 +1,31 @@
+.navbar {
+    margin: auto;
+    max-width: 320px;
+}
+
+#computer-portfolio {
+    border-radius: 20px;
+    max-width: 400px;
+}
+
+.computer-portfolio {
+    text-align: center;
+}
+
+.portfolios {
+    background: linear-gradient(90deg, rgba(232, 232, 200, 1) 0%, rgba(226, 226, 177, 1) 35%, rgba(207, 207, 146, 1) 100%);
+    background: rgb(232, 232, 200);
+    border-radius: 5px;
+    margin: auto;
+    max-width: 500px;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    #computer-portfolio {
+        display: none;
+    }
+}
