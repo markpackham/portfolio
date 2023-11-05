@@ -1,17 +1,32 @@
-# Portfolio Project
-HyperionDev menu order app portfolio project using JS, Html, Boostrap &amp; CSS
+# Mark Packham Portfolio
 
-## Porfolio webpage showing aspects of CSS & Boostrap
+This site was created to demo my skills as a dev and should run on all modern browsers. 
+There is a portfolio page where various projects can be downloaded.
+This README.MD is here to cover these various projects.
 
+## Website's own tech
+
+This site was mainly built with just HTML and CSS.
 JS also used to update copyright date on webpage footers.
-Demo use of modal, gradients and flexbox.
+I also wanted to demo use of modal, gradients and flexbox.
 
-## JavaScript Html file fetching data from TheMealDB Api
+
+## Projects downloadable from portfolio page
+
+### JavaScript Project
+HyperionDev menu order app portfolio project using JS, Html, Bootstrap &amp; CSS
+
+### JavaScript Html file fetching data from TheMealDB Api
 
 Used Prompt and Alert for user interactivity and feedback.
 Lots of JSON parsing and checking to make sure user doesn't input invalid data.
 
-## React, React Router Dom & Redux frontend store app
+#### Requirements
+A browser that has JavaScript enabled. It has been used on Brave, Chrome, Edge, Firefox and Safari.
+
+
+### React, React Router Dom & Redux frontend store app
 
 The app that lets users login/register and add items from a fake store list to a cart.
 Bootstrap, Font Awesome, Formik, Sweetalert2 and Yup were used for better UX and cleaner form validation.
+For more info & the project's requirements please download the zip file "HyperionReactAppCapstoneProject.zip" and check the README.md.
