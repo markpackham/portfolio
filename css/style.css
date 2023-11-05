@@ -20,6 +20,15 @@ a:hover {
     color: hsl(59, 34%, 24%);
 }
 
+.btn {
+    background-color: hsl(58, 85%, 70%);
+    border: solid 1px;
+}
+
+.btn:hover {
+    background-color: hsl(58, 31%, 50%);
+}
+
 footer {
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -40,17 +49,6 @@ nav {
 
 ul {
     list-style: none;
-}
-
-
-/* Classes */
-.btn {
-    background-color: hsl(58, 85%, 70%);
-    border: solid 1px;
-}
-
-.btn:hover {
-    background-color: hsl(58, 31%, 50%);
 }
 
 .card {
