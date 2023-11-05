@@ -1,8 +1,10 @@
+/*Classes */
 .navbar {
     margin: auto;
     max-width: 190px;
 }
 
+/*Ids */
 #computer-portfolio {
     border-radius: 20px;
     max-width: 400px;
@@ -22,7 +24,7 @@
     text-align: center;
 }
 
-
+/* Media Queries */
 @media screen and (max-width: 480px) {
 
     #computer-portfolio {
