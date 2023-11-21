@@ -4,11 +4,14 @@
     max-width: 400px;
 }
 
-/*Classes */
-.computer-portfolio {
-    text-align: center;
+#computer-keyboard,
+#computer-monitor,
+#computer-mouse {
+    border-radius: 20px;
+    max-width: 200px;
 }
 
+/*Classes */
 .navbar {
     margin: auto;
     max-width: 190px;
