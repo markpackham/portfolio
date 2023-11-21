@@ -16,9 +16,14 @@
     padding: 1rem;
 }
 
+#camera1,
 #computer-realistic {
     border-radius: 20px;
     max-width: 350px;
+}
+
+#camera1 {
+    margin-bottom: 5px;
 }
 
 #interests,
