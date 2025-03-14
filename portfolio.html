@@ -3,116 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Mark Packham Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/portfolio.css" rel="stylesheet">
     <script defer src="./js/main.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1>Portfolio <i class="fa-regular fa-folder-open"></i></h1>
-            <nav class="navbar navbar-expand-lg mb-3 rounded">
-                <div class="container">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html" rel="noopener noreferrer">Return Home <i
-                                    class="fa-solid fa-house"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-
-        <main>
-            <div class="img-center-container">
-                <img id="computer-portfolio" class="display-images img-fluid mb-3" src="./images/portfolio/computer.jpg"
-                    alt="portfolio computer">
-            </div>
-            <div class="portfolios mt-2 mb-2">
-                <!-- JS -->
-                <h3>JavaScript Project</h3>
-                <div class="img-center-container">
-                    <img id="computer-keyboard" class="display-images img-fluid mb-3"
-                        src="./images/portfolio/keyboard1.jpg" alt="computer keyboard">
-                </div>
-                <p>This JavaScript based app lets you take food orders using data from the Meal DB API with the data
-                    stored in sessionStorage.</p>
-                <ul>
-                    <li>
-                        <a class="btn" href="../take_order_app/take_order.html" target="_blank">Take Orders
-                            Project</a>
-                    </li>
-                    <li class="mt-2">
-                        <a class="btn" href="../downloads/take_order_app.zip" download="take_order_app">Download
-                            Take
-                            Orders
-                            Project</a>
-                    </li>
-                </ul>
-            </div>
-
-
-            <div class="portfolios mt-2 mb-2">
-                <!-- React -->
-                <h3>React Project</h3>
-                <div class="img-center-container">
-                    <img id="computer-mouse" class="display-images img-fluid mb-3" src="./images/portfolio/mouse1.jpg"
-                        alt="computer mouse">
-                </div>
-                <p>A React, React Router Dom & Redux frontend app that lets users login/register and add items from a
-                    fake store list to a
-                    cart.</p>
-                <p>Bootstrap, Font Awesome, Formik, Sweetalert2 and Yup were used for better UX and cleaner form
-                    validation.</p>
-                <p>Full info including requirements to install can be found <a
-                        href="https://github.com/markpackham/HyperionReact-AppCapstoneProject/blob/master/README.md"
-                        target="_blank">here.</a>
-                </p>
-                <ul>
-                    <li class="mt-2">
-                        <a class="btn" href="../downloads/HyperionReactAppCapstoneProject.zip"
-                            download="HyperionReactAppCapstoneProject">Download
-                            React App Project</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="portfolios mt-2 mb-2">
-                <!-- React, Express & MongoDB -->
-                <h3>React Express & MongoDB Project</h3>
-                <div class="img-center-container">
-                    <img id="computer-monitor" class="display-images img-fluid mb-3"
-                        src="./images/portfolio/monitor3.jpg" alt="computer monitor">
-                </div>
-                <p>Allow users to search the iTunes API for music, movies & ebooks using React, React Redux, Express &
-                    MongoDB.</p>
-                <p>Users that registered and logged in could add their fav media items to a list that was stored in the
-                    database.</p>
-                <p>JWT tokens and bcrypt (to encrypt their passwords in the database) were used for handling registered
-                    users.</p>
-                <p>Bootstrap, Font Awesome, Formik, Sweetalert2 and Yup were used for better UX and cleaner form
-                    validation. DOMPurify was used to reduce the risk of malicious code being inserted.
-                </p>
-                <p>Full info including requirements to install can be found <a
-                        href="https://github.com/markpackham/HyperionReactExpressFaviTunesCapstoneProject/blob/master/README.md"
-                        target="_blank">here.</a>
-                </p>
-                <ul>
-                    <li class="mt-2">
-                        <a class="btn" href="../downloads/HyperionReactAppCapstoneProject.zip"
-                            download="HyperionReactExpressFaviTunesCapstoneProject">Download
-                            React Express Fav iTunes Project</a>
-                    </li>
-                </ul>
-            </div>
-
-        </main>
-
+<div class="container">
+    <header>
+        <h1>Portfolio <i class="fa-regular fa-folder-open"></i></h1>
         <nav class="navbar navbar-expand-lg mb-3 rounded">
             <div class="container">
                 <ul class="navbar-nav">
@@ -123,13 +26,110 @@
                 </ul>
             </div>
         </nav>
+    </header>
 
-        <footer class="text-center"><i>© Mark Packham
-                <span id="currentYear"></span>
-                All rights reserved.
-            </i>
-        </footer>
-    </div>
+    <main>
+        <div class="img-center-container">
+            <img alt="portfolio computer" class="display-images img-fluid mb-3" id="computer-portfolio"
+                 src="./images/portfolio/computer.jpg">
+        </div>
+        <div class="portfolios mt-2 mb-2">
+            <!-- JS -->
+            <h3>JavaScript Project</h3>
+            <div class="img-center-container">
+                <img alt="computer keyboard" class="display-images img-fluid mb-3"
+                     id="computer-keyboard" src="./images/portfolio/keyboard1.jpg">
+            </div>
+            <p>This JavaScript based app lets you take food orders using data from the Meal DB API with the data
+                stored in sessionStorage.</p>
+            <ul>
+                <li>
+                    <a class="btn" href="../take_order_app/take_order.html" target="_blank">Take Orders
+                        Project</a>
+                </li>
+                <li class="mt-2">
+                    <a class="btn" download="take_order_app" href="../downloads/take_order_app.zip">Download
+                        Take
+                        Orders
+                        Project</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="portfolios mt-2 mb-2">
+            <!-- React -->
+            <h3>React Project</h3>
+            <div class="img-center-container">
+                <img alt="computer mouse" class="display-images img-fluid mb-3" id="computer-mouse"
+                     src="./images/portfolio/mouse1.jpg">
+            </div>
+            <p>A React, React Router Dom & Redux frontend app that lets users login/register and add items from a
+                fake store list to a
+                cart.</p>
+            <p>Bootstrap, Font Awesome, Formik, Sweetalert2 and Yup were used for better UX and cleaner form
+                validation.</p>
+            <p>Full info including requirements to install can be found <a
+                    href="https://github.com/markpackham/HyperionReact-AppCapstoneProject/blob/master/README.md"
+                    target="_blank">here.</a>
+            </p>
+            <ul>
+                <li class="mt-2">
+                    <a class="btn" download="HyperionReactAppCapstoneProject"
+                       href="../downloads/HyperionReactAppCapstoneProject.zip">Download
+                        React App Project</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="portfolios mt-2 mb-2">
+            <!-- React, Express & MongoDB -->
+            <h3>React Express & MongoDB Project</h3>
+            <div class="img-center-container">
+                <img alt="computer monitor" class="display-images img-fluid mb-3"
+                     id="computer-monitor" src="./images/portfolio/monitor3.jpg">
+            </div>
+            <p>Allow users to search the iTunes API for music, movies & ebooks using React, React Redux, Express &
+                MongoDB.</p>
+            <p>Users that registered and logged in could add their fav media items to a list that was stored in the
+                database.</p>
+            <p>JWT tokens and bcrypt (to encrypt their passwords in the database) were used for handling registered
+                users.</p>
+            <p>Bootstrap, Font Awesome, Formik, Sweetalert2 and Yup were used for better UX and cleaner form
+                validation. DOMPurify was used to reduce the risk of malicious code being inserted.
+            </p>
+            <p>Full info including requirements to install can be found <a
+                    href="https://github.com/markpackham/HyperionReactExpressFaviTunesCapstoneProject/blob/master/README.md"
+                    target="_blank">here.</a>
+            </p>
+            <ul>
+                <li class="mt-2">
+                    <a class="btn" download="HyperionReactExpressFaviTunesCapstoneProject"
+                       href="../downloads/HyperionReactAppCapstoneProject.zip">Download
+                        React Express Fav iTunes Project</a>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <nav class="navbar navbar-expand-lg mb-3 rounded">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html" rel="noopener noreferrer">Return Home <i
+                            class="fa-solid fa-house"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <footer class="text-center"><i>© Mark Packham
+        <span id="currentYear"></span>
+        All rights reserved.
+    </i>
+    </footer>
+</div>
 </body>
 
 </html>
