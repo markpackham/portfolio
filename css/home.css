@@ -40,6 +40,11 @@ Media Queries
 */
 @media screen and (max-width: 991px) {
 
+    nav {
+        max-width: 250px;
+        margin: auto;
+    }
+
     nav ul {
         margin: auto;
     }
